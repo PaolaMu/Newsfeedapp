@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16">
+
+    <ImageView
+        android:id="@+id/news_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_150"
+        android:contentDescription="@string/line"
+        android:scaleType="centerCrop" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/news_img"
+        android:hint="@string/title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:hint="@string/author"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/author"
+        android:background="@color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:hint="@string/section"
+        android:maxLines="1"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section"
+        android:gravity="center"
+        android:hint="@string/date_time"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey" />
+
+</RelativeLayout>
