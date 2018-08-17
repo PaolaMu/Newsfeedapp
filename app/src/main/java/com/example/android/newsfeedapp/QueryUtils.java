@@ -138,7 +138,7 @@ public final class QueryUtils {
 
 
         } catch (JSONException je) {
-            Log.e(TAG, "extratNewsFromJson: Problem parsing results", je);
+            Log.e(TAG, "extractNewsFromJson: Problem parsing results", je);
 
         }
         return myNews;

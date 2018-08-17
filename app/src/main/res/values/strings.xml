@@ -1,10 +1,46 @@
 <resources>
     <string name="app_name">News feed app</string>
-    <string name="no_internet_connection">no_internet_connection</string>
-    <string name="no_news">no news</string>
-    <string name="title">title</string>
-    <string name="author">author</string>
-    <string name="section">section</string>
-    <string name="date_time">date_time</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="no_news">No news found</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="section">Section</string>
+    <string name="date_time">date time</string>
     <string name="line">line</string>
+
+
+    <!-- Settings menu -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_label">News Settings</string>
+    <string name="start_date_preference">Begin Date</string>
+    <string name="end_date_preference">End Date</string>
+    <string name="order_preference">Order</string>
+
+
+    <!-- Preferences: From date To date -->
+    <string name="settings_start_date_label">From: (yyyy-mm-dd)</string>
+    <string name="settings_start_date_key" translatable="false">from-date</string>
+    <string name="settings_start_date_default" translatable="false">from-default</string>
+    <string name="settings_end_date_label">To: (yyyy-mm-dd)</string>
+    <string name="settings_end_date_key" translatable="false">to-date</string>
+    <string name="settings_end_date_default" translatable="false">to-default</string>
+
+    <!-- Preferences: For Order-By  -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">orderBy</string>
+    <string name="settings_order_by_default" translatable="false">order_by_most_recent</string>
+
+    <!-- Order by: relevance -->
+    <string name="settings_order_by_relevant_label">Relevance</string>
+    <string name="settings_order_by_relevant_value" translatable="false">relevance</string>
+
+    <!-- Order by: new Articles  -->
+    <string name="settings_order_by_most_recent_label">New Articles</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    <!-- Today's date -->
+    <string name="settings_today_label">Today\'s Date</string>
+    <string name="settings_today_key">change</string>
+    <string name="settings_today_default">false</string>
+
 </resources>

@@ -83,6 +83,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
         // Return the news item list view that is now showing the appropriate data
         return listItemView;
     }
+
     /**
      * Return the formatted date string (i.e. "Feb 12, 1987") from a Date object.
      */
